@@ -164,10 +164,10 @@ body{
 
   }
   .titulo-name{
-      margin: 2% 0 0 0;
+      margin: 8% 0 0 0;
       display: grid;
       grid-column: 2/3;
-      grid-row: 1;
+      grid-row: 1/2;
       height: 38%;
       width: 100%;
     font-size: 250%;
@@ -248,5 +248,11 @@ body{
     .formulario-form__submit{
         margin: 0 0 0 10%;
         height: 70%;
+    }
+  }
+  @media only screen and (max-width: 620px){
+    body{
+        width: 620px;
+        height: 140vh;
     }
   }
