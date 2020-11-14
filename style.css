@@ -254,7 +254,7 @@ body{
   @media only screen and (max-width: 620px){
     body{
         width: 100%;
-        height: 180vh;
+        height: 160vh;
     }
     .titulo{
         grid-template-columns: 10% 80% 10%;
