@@ -267,7 +267,7 @@ body{
         text-align: center;
     }
     .descripcion-mensaje{
-        font-size: medium;
+        font-size: small;
     }
     .formulario{
         display: flex;
