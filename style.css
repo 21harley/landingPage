@@ -250,9 +250,14 @@ body{
         height: 70%;
     }
   }
+  
   @media only screen and (max-width: 620px){
     body{
         width: 620px;
         height: 140vh;
     }
+    .titulo{
+        grid-template-columns: 10% 80% 10%;
+    }
   }
+  
